@@ -21,76 +21,76 @@
 \tableofcontents
 \newpage
 
+% Einleitung
 \section{Einleitung}
-\blindtext
+\subsection{Aufgabenstellung}
+\include{1-1_einleitung_aufgabenstellung}
+\subsection{Ausgangssituation}
+\include{1-2_einleitung_ausgangssituation}
+\subsection{Systemarchitektur}
+\subsubsection{Hardware}
+\include{1-3-1_einleitung_systemarchitektur_hardware}
+\subsubsection{Software}
+\include{1-3-2_einleitung_systemarchitektur_software}
+\subsection{Arbeitspakete}
+\include{1-4_einleitung_arbeitspakete}
 
-\begin{figure}[h]
+% State-of-the-art
+\section{State of the Art}
+\subsection{Bilderkennung}
+\include{2-1_stateoftheart_bilderkennung}
+\subsection{Bahnplanung \& Greifen}
+\include{2-2_stateoftheart_bahnplanung}
 
-\begin{minipage}{.5\textwidth}
-\centering
+% Arbeitsbericht
+\section{Arbeitsbericht}
+\subsection{Bilderkennung}
+\subsubsection{Tassenerkennung}
+\include{3-1-1_arbeitsbericht_tassenerkennung}
+\subsubsection{Turtleboterkennung}
+\include{3-1-2_arbeitsbericht_turtleboterkennung}
+\subsubsection{Automatische Kamerakalibrierung}
+\include{3-1-3_arbeitsbericht_automatische_kamerakalibrierung}
 
-\begin{tikzpicture}
-\begin{axis}[scatter/classes={
-        a={mark=square*,blue},%
-        b={mark=triangle*,red},%
-        c={mark=o,draw=black}},
-        legend pos=south east]
+\subsection{Bahnplanung \& Greifen}
+\subsubsection{Bahnplanung}
+\include{3-2-1_arbeitsbericht_bahnplanung}
+\subsubsection{Greifen}
+\include{3-2-2_arbeitsbericht_greifen}
 
-        \addplot[scatter,only marks,
-                scatter src=explicit symbolic]
-                coordinates {
-                        (0.1,0.15)  [a]
-                        (0.45,0.27) [c]
-                        (0.02,0.17) [a]
-                        (0.06,0.1)  [a]
-                        (0.9,0.5)   [b]
-                        (0.5,0.3)   [c]
-                        (0.85,0.52) [b]
-                        (0.12,0.05) [a]
-                        (0.73,0.45) [b]
-                        (0.53,0.25) [c]
-                        (0.76,0.5)  [b]
-                        (0.55,0.32) [c]
-                };
-        \addplot coordinates
-                {(0.1,0.1) (0.5,0.3) (0.85,0.5)};
-        \legend{Klasse 1, Klasse 2, Klasse 3, Rote Linie}
-\end{axis}
-\end{tikzpicture}
+\subsection{High-level Steuerung \& Kommunikation}
+\include{3-3_arbeitsbericht_highlevel_steuerung_kommunikation}
 
-\end{minipage}
-\begin{minipage}{.5\textwidth}
-\centering
+% Beschreibung des Gesamtsystems
+\section{Beschreibung des Gesamtsystems}
+\subsection{Bilderkennung}
+\subsubsection{Tassenerkennung}
+\include{4-1-1_gesamtsystem_bilderkennung_tassenerkennung}
+\subsubsection{Automatische Kamerakalibrierung}
+\include{4-1-2_gesamtsystem_bilderkennung_automatische_Kamerakalibrierung}
+\subsection{Bahnplanung \& Greifen}
+\subsubsection{Bahnplanung}
+\include{4-2-1_gesamtsystem_bahnplanung_bahnplanung}
+\subsubsection{Greifen}
+\include{4-2-2_gesamtsystem_bahnplanung_greifen}
+\subsection{High-level Steuerung \& Kommunikation}
+\include{4-3_gesamtsystem_highlevel_steuerung_kommunikation}
 
-\begin{tikzpicture}[
-      start chain=1 going right,start chain=2 going below,node distance=-0.15mm
-    ]
-    \node [on chain=2] {Tape};
-    \node [on chain=1] at (-1.5,-.4) {\ldots};
-    \foreach \x in {1,2,...,11} {
-        \x, \node [draw,on chain=1] {};
-    }
-    \node [name=r,on chain=1] {\ldots};
-    \node [name=k, arrow box, draw,on chain=2,
-        arrow box arrows={east:.25cm, west:0.25cm}] at (-0.335,-.65) {};
-    \node at (2.0,-.85) {Read/write head};
-    \node [on chain=2] {};
-    \node [draw,on chain=2] {Program};
-    \chainin (k) [join]; % Verbindung vom Programm zum Leseschreibkopf
-\end{tikzpicture}
+% Evaluation & Ausblick
+\section{Evaluation \& Ausblick}
+\subsection{Tassenerkennung}
+\include{5-1_evaluation_tassenerkennung}
+\subsection{Turtleboterkennung}
+\include{5-2_evaluation_turtleboterkennung}
+\subsection{Automatische Kamerakalibrierung}
+\include{5-3_evaluation_automatische_kamerakalibrierung}
+\subsection{Bahnplanung}
+\include{5-4_evaluation_bahnplanung}
+\subsection{Greifen}
+\include{5-5_evaluation_greifen}
+\subsection{High-level Steuerung \& Kommunikation}
+\include{5-6_evaluation_highlevel_steuerung_kommunikation}
 
-\end{minipage}
-
-\captionsetup{singlelinecheck=off}
-\caption[foo bar]{Das ist meine Grafik. Es gibt viele solcher Grafiken, aber diese gehört mir. Oder nicht?!
-\begin{itemize}
- \item \url{http://www.texample.net/tikz/examples}
- \item \url{http://pgfplots.sourceforge.net/gallery.html}
-\end{itemize}}
-\end{figure}
-
-\subsection{Robot Operating System}
-Das Robot Operating System bietet Kommunikationsschnittstellen für ein verteiltes System in dem Knoten Nachrichten in sogenannten Topics veröffentlichen und Dienste anbieten können \cite{quigley2009ros}.
 
 \bibliography{example}
 
