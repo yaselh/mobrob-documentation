@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.28)  2 FEB 2018 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.28)  2 FEB 2018 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1142,10 +1142,12 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 (./4-2-1_gesamtsystem_bahnplanung_bahnplanung.aux)
 (./4-2-2_gesamtsystem_bahnplanung_greifen.aux)
 (./4-3_gesamtsystem_highlevel_steuerung_kommunikation.aux)
-(./5-1_evaluation_tassenerkennung.aux) (./5-2_evaluation_turtleboterkennung.aux
-) (./5-3_evaluation_automatische_kamerakalibrierung.aux)
-(./5-4_evaluation_bahnplanung.aux) (./5-5_evaluation_greifen.aux)
-(./5-6_evaluation_highlevel_steuerung_kommunikation.aux))
+(./5-1_1_evaluation_bilderkennung_tassenerkennung.aux)
+(./5-1-2_evaluation_bilderkennung_turtleboterkennung.aux)
+(./5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.aux)
+(./5-2-1_evaluation_bahnplanung.aux) (./5-2-2_evaluation_greifen.aux)
+(./5-3_evaluation_highlevel_steuerung_kommunikation.aux)
+(./5-4-evaluation-gesamtsystem.aux))
 \openout1 = `example.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -1225,7 +1227,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 20.
-<fzi-logo-2007.png, id=143, 127.79745pt x 212.35335pt>
+<fzi-logo-2007.png, id=155, 127.79745pt x 212.35335pt>
 File: fzi-logo-2007.png Graphic file (type png)
  <use fzi-logo-2007.png>
 Package pdftex.def Info: fzi-logo-2007.png used on input line 20.
@@ -1368,7 +1370,7 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 53.
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 57.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 56.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [13
 
@@ -1380,7 +1382,7 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 57.
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 59.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 58.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [14
 
@@ -1392,7 +1394,7 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 59.
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 62.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 61.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [15
 
@@ -1405,7 +1407,7 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 62.
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 68.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 67.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [16
 
@@ -1418,7 +1420,7 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 68.
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 70.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 69.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [17
 
@@ -1432,7 +1434,7 @@ ux'.
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 73.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 72.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [18
 
@@ -1443,7 +1445,7 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 73.
  (./4-2-1_gesamtsystem_bahnplanung_bahnplanung.tex)
 File: fzi-logo-2007.png Graphic file (type png)
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 75.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 74.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [19
 
@@ -1455,7 +1457,7 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 75.
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 77.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 76.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [20
 
@@ -1474,21 +1476,22 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 82.
 
 
 ]
-\openout2 = `5-1_evaluation_tassenerkennung.aux'.
+\openout2 = `5-1_1_evaluation_bilderkennung_tassenerkennung.aux'.
 
- (./5-1_evaluation_tassenerkennung.tex)
+
+(./5-1_1_evaluation_bilderkennung_tassenerkennung.tex)
 File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
+ <use fzi-logo-2007.png>
 Package pdftex.def Info: fzi-logo-2007.png used on input line 84.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [22
+
+[22
 
 
 ]
-\openout2 = `5-2_evaluation_turtleboterkennung.aux'.
+\openout2 = `5-1-2_evaluation_bilderkennung_turtleboterkennung.aux'.
 
- (./5-2_evaluation_turtleboterkennung.tex)
+ (./5-1-2_evaluation_bilderkennung_turtleboterkennung.tex)
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
@@ -1498,49 +1501,64 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 86.
 
 
 ]
-\openout2 = `5-3_evaluation_automatische_kamerakalibrierung.aux'.
+\openout2 = `5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.aux
+'.
 
 
-(./5-3_evaluation_automatische_kamerakalibrierung.tex)
+(./5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.tex)
 File: fzi-logo-2007.png Graphic file (type png)
- <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 88.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
 
-[24
+<use fzi-logo-2007.png>
+Package pdftex.def Info: fzi-logo-2007.png used on input line 89.
+(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
+ [24
 
 
 ]
-\openout2 = `5-4_evaluation_bahnplanung.aux'.
+\openout2 = `5-2-1_evaluation_bahnplanung.aux'.
 
- (./5-4_evaluation_bahnplanung.tex)
+ (./5-2-1_evaluation_bahnplanung.tex)
 File: fzi-logo-2007.png Graphic file (type png)
- <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 90.
+
+<use fzi-logo-2007.png>
+Package pdftex.def Info: fzi-logo-2007.png used on input line 91.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [25
 
 
 ]
-\openout2 = `5-5_evaluation_greifen.aux'.
+\openout2 = `5-2-2_evaluation_greifen.aux'.
 
-
-(./5-5_evaluation_greifen.tex)
+ (./5-2-2_evaluation_greifen.tex)
 File: fzi-logo-2007.png Graphic file (type png)
- <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 92.
+
+<use fzi-logo-2007.png>
+Package pdftex.def Info: fzi-logo-2007.png used on input line 93.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [26
 
 
 ]
-\openout2 = `5-6_evaluation_highlevel_steuerung_kommunikation.aux'.
+\openout2 = `5-3_evaluation_highlevel_steuerung_kommunikation.aux'.
 
 
-(./5-6_evaluation_highlevel_steuerung_kommunikation.tex)
+(./5-3_evaluation_highlevel_steuerung_kommunikation.tex)
+File: fzi-logo-2007.png Graphic file (type png)
+
+<use fzi-logo-2007.png>
+Package pdftex.def Info: fzi-logo-2007.png used on input line 95.
+(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
+ [27
+
+
+]
+\openout2 = `5-4-evaluation-gesamtsystem.aux'.
+
+
+No file 5-4-evaluation-gesamtsystem.tex.
 No file example.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 (./example.aux (./1-1_einleitung_aufgabenstellung.aux)
 (./1-2_einleitung_ausgangssituation.aux)
 (./1-3-1_einleitung_systemarchitektur_hardware.aux)
@@ -1557,31 +1575,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
 (./4-2-1_gesamtsystem_bahnplanung_bahnplanung.aux)
 (./4-2-2_gesamtsystem_bahnplanung_greifen.aux)
 (./4-3_gesamtsystem_highlevel_steuerung_kommunikation.aux)
-(./5-1_evaluation_tassenerkennung.aux) (./5-2_evaluation_turtleboterkennung.aux
-) (./5-3_evaluation_automatische_kamerakalibrierung.aux)
-(./5-4_evaluation_bahnplanung.aux) (./5-5_evaluation_greifen.aux)
-(./5-6_evaluation_highlevel_steuerung_kommunikation.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+(./5-1_1_evaluation_bilderkennung_tassenerkennung.aux)
+(./5-1-2_evaluation_bilderkennung_turtleboterkennung.aux)
+(./5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.aux)
+(./5-2-1_evaluation_bahnplanung.aux) (./5-2-2_evaluation_greifen.aux)
+(./5-3_evaluation_highlevel_steuerung_kommunikation.aux)
+(./5-4-evaluation-gesamtsystem.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: 4EB42C0ADFA71A39F6BEBEF7B6ADA4BF;2360.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+(rerunfilecheck)             Checksum: 5C693F60ADE62F08D3D9E0E3449D56CB;2609.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 32072 strings out of 493013
- 742788 string characters out of 6136993
- 1045913 words of memory out of 5000000
- 34885 multiletter control sequences out of 15000+600000
+ 32086 strings out of 493013
+ 743730 string characters out of 6136993
+ 1046916 words of memory out of 5000000
+ 34890 multiletter control sequences out of 15000+600000
  9125 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,15n,102p,8821b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on example.pdf (26 pages, 87386 bytes).
+Output written on example.pdf (27 pages, 88316 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
- 62 named destinations out of 1000 (max. 500000)
- 446 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
