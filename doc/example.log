@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.28)  2 FEB 2018 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.28)  3 FEB 2018 21:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,28 +1126,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./example.aux
-(./1-1_einleitung_aufgabenstellung.aux) (./1-2_einleitung_ausgangssituation.aux
-) (./1-3-1_einleitung_systemarchitektur_hardware.aux)
-(./1-3-2_einleitung_systemarchitektur_software.aux)
-(./1-4_einleitung_arbeitspakete.aux) (./2-1_stateoftheart_bilderkennung.aux)
-(./2-2_stateoftheart_bahnplanung.aux)
-(./3-1-1_arbeitsbericht_tassenerkennung.aux)
-(./3-1-2_arbeitsbericht_turtleboterkennung.aux)
-(./3-1-3_arbeitsbericht_automatische_kamerakalibrierung.aux)
-(./3-2-1_arbeitsbericht_bahnplanung.aux) (./3-2-2_arbeitsbericht_greifen.aux)
-(./3-3_arbeitsbericht_highlevel_steuerung_kommunikation.aux)
-(./4-1-1_gesamtsystem_bilderkennung_tassenerkennung.aux)
-(./4-1-2_gesamtsystem_bilderkennung_automatische_Kamerakalibrierung.aux)
-(./4-2-1_gesamtsystem_bahnplanung_bahnplanung.aux)
-(./4-2-2_gesamtsystem_bahnplanung_greifen.aux)
-(./4-3_gesamtsystem_highlevel_steuerung_kommunikation.aux)
-(./5-1_1_evaluation_bilderkennung_tassenerkennung.aux)
-(./5-1-2_evaluation_bilderkennung_turtleboterkennung.aux)
-(./5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.aux)
-(./5-2-1_evaluation_bahnplanung.aux) (./5-2-2_evaluation_greifen.aux)
-(./5-3_evaluation_highlevel_steuerung_kommunikation.aux)
-(./5-4-evaluation-gesamtsystem.aux))
+ (./example.aux)
 \openout1 = `example.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -1251,336 +1230,83 @@ File: fzi-logo-2007.png Graphic file (type png)
 Package pdftex.def Info: fzi-logo-2007.png used on input line 22.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [2]
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 27.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [3]
-\openout2 = `1-1_einleitung_aufgabenstellung.aux'.
-
- (./1-1_einleitung_aufgabenstellung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 29.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [4
+(./1-1_einleitung_aufgabenstellung.tex) (./1-2_einleitung_ausgangssituation.tex
+) (./1-3-1_einleitung_systemarchitektur_hardware.tex)
+(./1-3-2_einleitung_systemarchitektur_software.tex)
+(./1-4_einleitung_arbeitspakete.tex
+Underfull \hbox (badness 7907) in paragraph at lines 8--8
+[]\OT1/cmr/m/n/12 Tassendetektion SVM +
+ []
 
 
-]
-\openout2 = `1-2_einleitung_ausgangssituation.aux'.
-
- (./1-2_einleitung_ausgangssituation.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 32.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [5
+Underfull \hbox (badness 2150) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/12 Automatische Ka-me-ra-ka-li-
+ []
 
 
-]
-\openout2 = `1-3-1_einleitung_systemarchitektur_hardware.aux'.
-
- (./1-3-1_einleitung_systemarchitektur_hardware.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 34.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [6
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\OT1/cmr/m/n/12 High-level Steue-rung &
+ []
 
 
-]
-\openout2 = `1-3-2_einleitung_systemarchitektur_software.aux'.
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/12 Kom-mu-ni-ka-ti-ons-schnitt-
+ []
 
- (./1-3-2_einleitung_systemarchitektur_software.tex)
+)
+Overfull \hbox (26.41026pt too wide) in paragraph at lines 3--37
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--37
+
+ []
+
 File: fzi-logo-2007.png Graphic file (type png)
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 36.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 39.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [7
-
-
-]
-\openout2 = `1-4_einleitung_arbeitspakete.aux'.
-
- (./1-4_einleitung_arbeitspakete.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 41.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [8
-
-
-]
-\openout2 = `2-1_stateoftheart_bilderkennung.aux'.
-
- (./2-1_stateoftheart_bilderkennung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 43.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [9
-
-
-]
-\openout2 = `2-2_stateoftheart_bahnplanung.aux'.
-
- (./2-2_stateoftheart_bahnplanung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 49.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [10
-
-
-]
-\openout2 = `3-1-1_arbeitsbericht_tassenerkennung.aux'.
-
- (./3-1-1_arbeitsbericht_tassenerkennung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 51.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [11
-
-
-]
-\openout2 = `3-1-2_arbeitsbericht_turtleboterkennung.aux'.
-
- (./3-1-2_arbeitsbericht_turtleboterkennung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 53.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [12
-
-
-]
-\openout2 = `3-1-3_arbeitsbericht_automatische_kamerakalibrierung.aux'.
-
-
+ [3] (./2-1_stateoftheart_bilderkennung.tex)
+(./2-2_stateoftheart_bahnplanung.tex)
+(./3-1-1_arbeitsbericht_tassenerkennung.tex)
+(./3-1-2_arbeitsbericht_turtleboterkennung.tex)
 (./3-1-3_arbeitsbericht_automatische_kamerakalibrierung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 56.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [13
-
-
-]
-\openout2 = `3-2-1_arbeitsbericht_bahnplanung.aux'.
-
- (./3-2-1_arbeitsbericht_bahnplanung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 58.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [14
-
-
-]
-\openout2 = `3-2-2_arbeitsbericht_greifen.aux'.
-
- (./3-2-2_arbeitsbericht_greifen.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 61.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [15
-
-
-]
-\openout2 = `3-3_arbeitsbericht_highlevel_steuerung_kommunikation.aux'.
-
-
+(./3-2-1_arbeitsbericht_bahnplanung.tex) (./3-2-2_arbeitsbericht_greifen.tex)
 (./3-3_arbeitsbericht_highlevel_steuerung_kommunikation.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 67.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [16
-
-
-]
-\openout2 = `4-1-1_gesamtsystem_bilderkennung_tassenerkennung.aux'.
-
-
 (./4-1-1_gesamtsystem_bilderkennung_tassenerkennung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 69.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [17
-
-
-]
-\openout2 = `4-1-2_gesamtsystem_bilderkennung_automatische_Kamerakalibrierung.a
-ux'.
-
-
 (./4-1-2_gesamtsystem_bilderkennung_automatische_Kamerakalibrierung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 72.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [18
-
-
-]
-\openout2 = `4-2-1_gesamtsystem_bahnplanung_bahnplanung.aux'.
-
- (./4-2-1_gesamtsystem_bahnplanung_bahnplanung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 74.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [19
-
-
-]
-\openout2 = `4-2-2_gesamtsystem_bahnplanung_greifen.aux'.
-
- (./4-2-2_gesamtsystem_bahnplanung_greifen.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 76.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [20
-
-
-]
-\openout2 = `4-3_gesamtsystem_highlevel_steuerung_kommunikation.aux'.
-
-
+(./4-2-1_gesamtsystem_bahnplanung_bahnplanung.tex)
+(./4-2-2_gesamtsystem_bahnplanung_greifen.tex)
 (./4-3_gesamtsystem_highlevel_steuerung_kommunikation.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 82.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [21
-
-
-]
-\openout2 = `5-1_1_evaluation_bilderkennung_tassenerkennung.aux'.
-
-
 (./5-1_1_evaluation_bilderkennung_tassenerkennung.tex)
+(./5-1-2_evaluation_bilderkennung_turtleboterkennung.tex)
+(./5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.tex)
+(./5-2-1_evaluation_bahnplanung.tex) (./5-2-2_evaluation_greifen.tex)
+(./5-3_evaluation_highlevel_steuerung_kommunikation.tex)
+(./5-4_evaluation_gesamtsystem.tex)
+No file example.bbl.
+File: fzi-logo-2007.png Graphic file (type png)
+<use fzi-logo-2007.png>
+Package pdftex.def Info: fzi-logo-2007.png used on input line 99.
+(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
+ [4]
 File: fzi-logo-2007.png Graphic file (type png)
  <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 84.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 99.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
+ [5]
+Overfull \vbox (113.33337pt too high) has occurred while \output is active []
 
-[22
-
-
-]
-\openout2 = `5-1-2_evaluation_bilderkennung_turtleboterkennung.aux'.
-
- (./5-1-2_evaluation_bilderkennung_turtleboterkennung.tex)
 File: fzi-logo-2007.png Graphic file (type png)
 
 <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 86.
+Package pdftex.def Info: fzi-logo-2007.png used on input line 99.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [23
-
-
-]
-\openout2 = `5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.aux
-'.
-
-
-(./5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 89.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [24
-
-
-]
-\openout2 = `5-2-1_evaluation_bahnplanung.aux'.
-
- (./5-2-1_evaluation_bahnplanung.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 91.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [25
-
-
-]
-\openout2 = `5-2-2_evaluation_greifen.aux'.
-
- (./5-2-2_evaluation_greifen.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 93.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [26
-
-
-]
-\openout2 = `5-3_evaluation_highlevel_steuerung_kommunikation.aux'.
-
-
-(./5-3_evaluation_highlevel_steuerung_kommunikation.tex)
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 95.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [27
-
-
-]
-\openout2 = `5-4-evaluation-gesamtsystem.aux'.
-
-
-No file 5-4-evaluation-gesamtsystem.tex.
-No file example.bbl.
+ [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
-(./example.aux (./1-1_einleitung_aufgabenstellung.aux)
-(./1-2_einleitung_ausgangssituation.aux)
-(./1-3-1_einleitung_systemarchitektur_hardware.aux)
-(./1-3-2_einleitung_systemarchitektur_software.aux)
-(./1-4_einleitung_arbeitspakete.aux) (./2-1_stateoftheart_bilderkennung.aux)
-(./2-2_stateoftheart_bahnplanung.aux)
-(./3-1-1_arbeitsbericht_tassenerkennung.aux)
-(./3-1-2_arbeitsbericht_turtleboterkennung.aux)
-(./3-1-3_arbeitsbericht_automatische_kamerakalibrierung.aux)
-(./3-2-1_arbeitsbericht_bahnplanung.aux) (./3-2-2_arbeitsbericht_greifen.aux)
-(./3-3_arbeitsbericht_highlevel_steuerung_kommunikation.aux)
-(./4-1-1_gesamtsystem_bilderkennung_tassenerkennung.aux)
-(./4-1-2_gesamtsystem_bilderkennung_automatische_Kamerakalibrierung.aux)
-(./4-2-1_gesamtsystem_bahnplanung_bahnplanung.aux)
-(./4-2-2_gesamtsystem_bahnplanung_greifen.aux)
-(./4-3_gesamtsystem_highlevel_steuerung_kommunikation.aux)
-(./5-1_1_evaluation_bilderkennung_tassenerkennung.aux)
-(./5-1-2_evaluation_bilderkennung_turtleboterkennung.aux)
-(./5-1-3_evaluation_bilderkennung_automatische_kamerakalibrierung.aux)
-(./5-2-1_evaluation_bahnplanung.aux) (./5-2-2_evaluation_greifen.aux)
-(./5-3_evaluation_highlevel_steuerung_kommunikation.aux)
-(./5-4-evaluation-gesamtsystem.aux))
+ (./example.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `example.out' has not changed.
@@ -1588,20 +1314,20 @@ Package rerunfilecheck Info: File `example.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 32086 strings out of 493013
- 743730 string characters out of 6136993
- 1046916 words of memory out of 5000000
- 34890 multiletter control sequences out of 15000+600000
+ 31944 strings out of 493013
+ 737842 string characters out of 6136993
+ 1049916 words of memory out of 5000000
+ 34867 multiletter control sequences out of 15000+600000
  9125 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,15n,102p,8821b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on example.pdf (27 pages, 88316 bytes).
+Output written on example.pdf (6 pages, 80248 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 350 words of extra memory for PDF output out of 10000 (max. 10000000)
 

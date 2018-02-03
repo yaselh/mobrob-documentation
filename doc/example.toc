@@ -1,38 +1,38 @@
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Aufgabenstellung}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Ausgangssituation}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Systemarchitektur}{5}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}Hardware}{5}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}Software}{6}{subsubsection.1.3.2}
-\contentsline {subsection}{\numberline {1.4}Arbeitspakete}{7}{subsection.1.4}
-\contentsline {section}{\numberline {2}State of the Art}{8}{section.2}
-\contentsline {subsection}{\numberline {2.1}Bilderkennung}{8}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Bahnplanung \& Greifen}{9}{subsection.2.2}
-\contentsline {section}{\numberline {3}Arbeitsbericht}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}Bilderkennung}{10}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Tassenerkennung}{10}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Turtleboterkennung}{11}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Automatische Kamerakalibrierung}{12}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {3.2}Bahnplanung \& Greifen}{13}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Bahnplanung}{13}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Greifen}{14}{subsubsection.3.2.2}
-\contentsline {subsection}{\numberline {3.3}High-level Steuerung \& Kommunikation}{15}{subsection.3.3}
-\contentsline {section}{\numberline {4}Beschreibung des Gesamtsystems}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}Bilderkennung}{16}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Tassenerkennung}{16}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Automatische Kamerakalibrierung}{17}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}Bahnplanung \& Greifen}{18}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Bahnplanung}{18}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Greifen}{19}{subsubsection.4.2.2}
-\contentsline {subsection}{\numberline {4.3}High-level Steuerung \& Kommunikation}{20}{subsection.4.3}
-\contentsline {section}{\numberline {5}Evaluation \& Ausblick}{21}{section.5}
-\contentsline {subsection}{\numberline {5.1}Bilderkennung}{21}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Tassenerkennung}{21}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Turtleboterkennung}{22}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Automatische Kamerakalibrierung}{23}{subsubsection.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Bahnplanung \& Greifen}{24}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Bahnplanung}{24}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Greifen}{25}{subsubsection.5.2.2}
-\contentsline {subsection}{\numberline {5.3}High-level Steuerung \& Kommunikation}{26}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Gesamtsystem}{27}{subsection.5.4}
+\contentsline {subsection}{\numberline {1.2}Ausgangssituation}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Systemarchitektur}{3}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Hardware}{3}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Software}{3}{subsubsection.1.3.2}
+\contentsline {subsection}{\numberline {1.4}Arbeitspakete}{3}{subsection.1.4}
+\contentsline {section}{\numberline {2}State of the Art}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Bilderkennung}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Bahnplanung \& Greifen}{6}{subsection.2.2}
+\contentsline {section}{\numberline {3}Arbeitsbericht}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Bilderkennung}{6}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Tassenerkennung}{6}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Turtleboterkennung}{6}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Automatische Kamerakalibrierung}{6}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Bahnplanung \& Greifen}{6}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Bahnplanung}{6}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Greifen}{6}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}High-level Steuerung \& Kommunikation}{6}{subsection.3.3}
+\contentsline {section}{\numberline {4}Beschreibung des Gesamtsystems}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Bilderkennung}{6}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Tassenerkennung}{6}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Automatische Kamerakalibrierung}{6}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Bahnplanung \& Greifen}{6}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Bahnplanung}{6}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Greifen}{6}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}High-level Steuerung \& Kommunikation}{6}{subsection.4.3}
+\contentsline {section}{\numberline {5}Evaluation \& Ausblick}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Bilderkennung}{6}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Tassenerkennung}{6}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Turtleboterkennung}{6}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Automatische Kamerakalibrierung}{6}{subsubsection.5.1.3}
+\contentsline {subsection}{\numberline {5.2}Bahnplanung \& Greifen}{6}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Bahnplanung}{6}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Greifen}{6}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}High-level Steuerung \& Kommunikation}{6}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Gesamtsystem}{6}{subsection.5.4}
