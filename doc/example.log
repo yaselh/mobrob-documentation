@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.28)  3 FEB 2018 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.28)  3 FEB 2018 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1206,6 +1206,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 20.
+
+Overfull \hbox (62.84163pt too wide) in paragraph at lines 20--20
+ [][] 
+ []
+
 <fzi-logo-2007.png, id=155, 127.79745pt x 212.35335pt>
 File: fzi-logo-2007.png Graphic file (type png)
  <use fzi-logo-2007.png>
@@ -1269,8 +1274,20 @@ Package pdftex.def Info: fzi-logo-2007.png used on input line 39.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [3] (./2-1_stateoftheart_bilderkennung.tex)
 (./2-2_stateoftheart_bahnplanung.tex)
-(./3-1-1_arbeitsbericht_tassenerkennung.tex)
-(./3-1-2_arbeitsbericht_turtleboterkennung.tex)
+(./3-1-1_arbeitsbericht_tassenerkennung.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+File: fzi-logo-2007.png Graphic file (type png)
+ <use fzi-logo-2007.png>
+Package pdftex.def Info: fzi-logo-2007.png used on input line 6.
+(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
+
+[4]) (./3-1-2_arbeitsbericht_turtleboterkennung.tex)
 (./3-1-3_arbeitsbericht_automatische_kamerakalibrierung.tex)
 (./3-2-1_arbeitsbericht_bahnplanung.tex) (./3-2-2_arbeitsbericht_greifen.tex)
 (./3-3_arbeitsbericht_highlevel_steuerung_kommunikation.tex)
@@ -1290,17 +1307,9 @@ File: fzi-logo-2007.png Graphic file (type png)
 <use fzi-logo-2007.png>
 Package pdftex.def Info: fzi-logo-2007.png used on input line 99.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [4]
+ [5]
 File: fzi-logo-2007.png Graphic file (type png)
  <use fzi-logo-2007.png>
-Package pdftex.def Info: fzi-logo-2007.png used on input line 99.
-(pdftex.def)             Requested size: 18.05336pt x 30.0pt.
- [5]
-Overfull \vbox (113.33337pt too high) has occurred while \output is active []
-
-File: fzi-logo-2007.png Graphic file (type png)
-
-<use fzi-logo-2007.png>
 Package pdftex.def Info: fzi-logo-2007.png used on input line 99.
 (pdftex.def)             Requested size: 18.05336pt x 30.0pt.
  [6]
@@ -1314,20 +1323,21 @@ Package rerunfilecheck Info: File `example.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 31944 strings out of 493013
- 737842 string characters out of 6136993
- 1049916 words of memory out of 5000000
- 34867 multiletter control sequences out of 15000+600000
+ 31966 strings out of 493013
+ 738197 string characters out of 6136993
+ 1047916 words of memory out of 5000000
+ 34884 multiletter control sequences out of 15000+600000
  9125 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,15n,102p,8821b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on example.pdf (6 pages, 80248 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on example.pdf (6 pages, 92811 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  350 words of extra memory for PDF output out of 10000 (max. 10000000)
 
