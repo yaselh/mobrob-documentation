@@ -4,13 +4,23 @@ Aus diesem Grund wurden die Anzahl der Kontaktpunkte durch eine eckige Ausbuchtu
 
 Die nächste Generation an Fingern vergrößerte die Griffbreite um 4cm, erreicht durch "Nach-hinten"-Lagerung jeder Backe. Zusätzlich wurde der Schaft verlängert und erhielt eine ähnliche kantige Ausbuchtung, wie bereits das Ende des Fingers. Diese Änderung vergrößerte den Arbeitsbereich des Roboters, den Sicherheitsabstand zum Tisch und die Kontaktfläche der Tasse am Schaft.
 
-\includegraphics[width=\textwidth]{images/finger_evolution.png}
-
 Bei weiteren Versuchen wurde durch einen Konfigurationsfehler zu tief unter die Kante der Tasse eingetaucht, was in letzter Konsequenz zum Brechen eines Fingers führte. Um dieses Problem bei einer weiteren Iteration kategorisch auszuschließen, wurde die Verschiebung des Schaftes an den Montagebereich gelegt, eine abfallende Kante in Richtung Ende des Fingers konstruiert und die Gesamtlänge von 12cm auf 11cm reduziert. Für eine erhöhte Stabilität wurde die Druckrichtung von Horizontal auf Vertikal verändert.
 
 Zusätzlich wurden zwei Varianten für eine bessere Reibung getestet: 1) Arbeitshandschuh und 2) Haushaltsgummi. Aus dem Handschuh wurden zwei Finger entfernt und mit doppelseitigem Klebeband auf dem gedruckten Finger befestigt. Der Grip zwischen Finger und Tasse erhöht sich, jedoch ist die hinzugefügte Schicht dünn, weshalb bei erhöhtem Druck der Finger sich verbiegt. Zur Vermeidung wird eine dickere Schicht zwischen Finger und Tasse benötigt. Haushaltsgummis in einem X-Muster erweis sich als besser geeignet, da sie mehr Reibung und eine dickere Schicht bieten.
 
-\includegraphics[width=\textwidth]{images/finger_tip.JPG}
+\begin{figure}
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/finger_evolution.png} % first figure itself
+        \caption{Evolution des Fingers}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/finger_tip.JPG} % second figure itself
+        \caption{Erhöhter Grip}
+    \end{minipage}
+\end{figure}
 
 Abhängig von der Tasse wurden verschiedene Konstanten für die Breite der Finger empirisch getestet. Zur Vereinfachung gehen wir nun von genau einem Tassenmodell mit einer festen Breite aus. Anfangs wurde mit einem Fingerabstand von 9mm gegriffen, jedoch lässt sich dieser Wert zugunsten der Grifffestigkeit deutlich verkleinern. Es zeigte sich, dass bereits ein Abstand von 8mm ausreicht.
 
