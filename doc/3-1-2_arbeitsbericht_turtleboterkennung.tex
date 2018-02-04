@@ -1,0 +1,16 @@
+\paragraph{Allgemein}
+Für die Turtleboterkennung wurden keine ROS Pakete verwendet. Die verwendete Bibliotheken sind unter anderem NumPy, openCV, scikit-image, scikit-learn, Matplotlib.
+
+\paragraph{Detektion des Turtlbots in den Bilddaten}
+Die erste Überlegung war, das Turtlebot anhand eines Convolutional neural Networks zu erkennen. Mangels an Datensätze, die annotierten Bilder von der Klasse \textit{Turtlebot}\ in unterschiedlichen Kontexten beinhalten, wurde dieser überwachte Ansatz verworfen.
+
+Eine günstigere aber robuste Alternative war ein Model basiert auf einer SVM, die im Vergleich zu CNNs weniger annotierte Daten benötigen, um letztendlich die Stützvektoren zu finden. Nachdem einen Datensatz von verschiedenen annotierten Posen des Turtlebots in einer Szene mithilfe der Kinect erstellt und segmentiert wurde, wurde die SVM auf unteschiedlichen negativen und positiven Patches trainiert. Mehr zu diesem Ansatz wird im Abschnitt
+\ref{4-1-2_gesamtsystem_bilderkennung_turtlebotkennung} detailliert.
+
+Der zweite getestete Ansatz basierte sich auf ein Template-Matching. Hier wurde ein Bild von der obigen Seite des Turtlebots aufgenommen und als Schablone verwendet. Dabei wird eine Szene von der Kinect in mehreren Segmenten gespaltet. [noch in bearbeitung]
+
+wurde nicht in das fertige System übernommen
+
+\paragraph{Segmentierung des Turtlebots in der Punktwolke}
+Aus der Detektion des Turtlebots in einem Bild werden die \(x\) und \(y\) Koordinate im Weltkoordinatensystem gewonnen. Die \(z\) Koordinate ist durch die Punktwolke zu bestimmen. Ein naïves Verfahren war, die Punkte aus der Wolke zu nehmen, die zwischen einer Tiefe von der Höhe des Turtlebots und der maximalen von der Kinect gelieferten Tiefe.
+Werden die \(x\),\(y\) und \(z\) Koordinate kombiniert, wird das 3D-Bounding-Box des Turtlebots bestimmt.
