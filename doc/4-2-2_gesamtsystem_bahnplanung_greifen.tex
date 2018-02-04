@@ -1,0 +1,3 @@
+Die Hardware besteht aus dem Greifer Schunk PG70 mit 3D-gedruckten Fingern, die durch ein Muster aus Haushaltsgummis erweitert wurden. Die Kommunikation mit dem Greifer findet über eine CAN Schnittstelle statt, die per USB am Shuttle Computer angeschlossen ist. Ein externes Netzteil versorgt den Greifer mit Strom. 
+
+Der Greifer wird durch den "schunk_canopen_driver" des FZI angesprochen, welches eine Action zur Konfiguration der Backenabstände anbietet. Das Paket wird von "cup_gripper" verwendet, ein ROS Paket mit den beiden Actionen GrabCup und ReleaseCup. Der Greifer wird durch gripper abstrahiert, was einen vereinfachten Tausch der Hardware ermöglicht.
