@@ -13,7 +13,21 @@ Für die Detektion der Tasse in den Bilddaten wurden eine Reihe von Ansätzen ge
 
 Zunächst war der Plan die Tasse mittels eines Fully Convolutional Neural Network aus den Bilddaten zu segmentieren. Als Basisstruktur wurde hierfür die Architektur des Resnet50 Netzes verwendet. Die Eingabe für das Netz stellt ein RGB Bild dar und es liefert als Ausgabe zwei Feature Maps, welche die Wahrscheinlichkeiten für die Zugehörigkeiten der Pixel des Eingabebildes zu den Klassen \glqq Tasse\grqq bzw. \glqq Keine Tasse\grqq enthalten. Trainiert wurde auf den Microsoft COCO Datensatz unter Nutzung von GPU Kapazitäten bei Amazon Webservices. Der Ansatz wurde letztendlich verworfen, da es sich herausstellte dass das Netz zu überdimensioniert für die Segmentierung einer Klasse aus einem RGB Datensatz ist und nicht genügend Trainingsdaten zur Verfügung standen.
 
-Der zweite getestete Ansatz basierte auf der Segmentierung des Bildes in eine Menge von Segmenten sowie einer Klassifizierung durch ein Neuronales Netz. Das Bild wird hierfür zunächst mittels des SLIC Algorithmus in eine Menge von Segmenten zerlegt. Diese Segmente werden dann unter Einbeziehung eines gewissen Kontextfensters dem Neuronalen Netz zur Klassifikation übergeben. Jedem Segment wird entweder als \glqq Tasse\grqq oder \glqq Keine Tasse\grqq klassifiziert.
+Der zweite getestete Ansatz basierte auf der Segmentierung des Bildes in eine Menge von Segmenten sowie einer Klassifizierung durch ein Neuronales Netz. Das Bild wird hierfür zunächst mittels des SLIC Algorithmus in eine Menge von Segmenten zerlegt. Diese Segmente werden dann unter Einbeziehung eines gewissen Kontextfensters dem Neuronalen Netz zur Klassifikation übergeben. Jedem Segment wird entweder als \glqq Tasse\grqq oder \glqq Keine Tasse\grqq klassifiziert. Das Ergebnis einer Vorhersage mit dem beschriebenen Algorithmus ist in Abbildung \ref{fig:patches_prediction_result} abgebildet.
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/cup_patches.jpg} % first figure itself
+        \caption{Eingabe für das Neuronale Netz zur Segment Klassifikation \label{fig:patches_prediction}}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/cup_patches_prediction.png} % second figure itself
+        \caption{Vom Netz ausgegebene Wahrscheinlichkeiten \label{fig:patches_prediction_result}}
+    \end{minipage}
+\end{figure}
 
 Der dritte gewählte Ansatz wurde letztendlich auch in das fertige System übernommen und basiert auf einer SVM welche Bildsegmente, die mithilfe eines Sliding Window Ansatzes gewonnen werden klassifiziert. Details zu diesem Ansatz werden im Abschnitt \ref{4-1-1_gesamtsystem_bilderkennung_tassenerkennung} näher erläutert.
 
