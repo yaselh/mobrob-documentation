@@ -1,10 +1,10 @@
-Die Highlevel Steuerung besteht aus einer Komponenten \glqq cup\textunderscore acceptor\textunderscore manager\grqq, die sowohl die Koordination der Teile innerhalb der Gruppe, als auch die Kommunikation mit dem Super Manager übernimmt. Dazu stellte diese Komponente einen Action mit dem Namen AcceptCup zur Verfügung, die nach einer erfolgreicher Bilderkennung die Tasse greift und auf den Turtlebot stellt. Dabei funktioniert die Interaktion wie folgt:
+Die Highlevel Steuerung besteht aus einer Komponenten \glqq cup\textunderscore acceptor\textunderscore manager\grqq, die sowohl die Koordination der Teile innerhalb der Gruppe, als auch die Kommunikation mit dem Super Manager koordiniert. Dazu stellte diese Komponente eine Action mit dem Namen AcceptCup zur Verfügung, die nach einer erfolgreichen Bilderkennung die Tasse greift und auf den Turtlebot stellt. Der Aktivitätenfluss gestaltet sich wie folgt:
 \begin{enumerate}
 \item Abonnement auf Ergebnisse der Localization Komponente
 \item AcceptCup Action wird aufgerufen
-\item Überprüfe Bounding Boxes für Tasse und Turtlebot. Ohne Ergebnisse wird gewartet und ein Fortschritt gemeldet
+\item Überprüfe Bounding Boxes für Tasse und Turtlebot. Ohne Ergebnisse wird gewartet und Fortschritt gemeldet
 \item Aufrufen der Gripper Arm Action
 \item Result zurück geben
 \end{enumerate}
 
-Der besondere Augenmerk lag bei einer korrekten Kommunikation mit den anderen Gruppen, sodass der Fortschritt beim Aufrufen der Action ersichtlicht ist.
+Der besondere Augenmerk lag auf einer korrekten Implementierung der Schnittstellen zu den anderen Gruppen.

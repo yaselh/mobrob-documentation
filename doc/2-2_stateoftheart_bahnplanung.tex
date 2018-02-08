@@ -1,12 +1,12 @@
-Im Bereich der Bahnplanung genieﬂen auf Abtastung basierende Algorithmen wie \textit{probabilistic roadmap} (PRM) oder \textit{rapidly-exploring random tree} (RRT) groﬂe Beliebtheit. Die liegt nicht zuletzt an ihrer asymptotischen Optimalit‰t \cite{SamplingAlgos}.
+Im Bereich der Bahnplanung genie√üen auf Abtastung basierende Algorithmen wie \textit{probabilistic roadmap} (PRM) oder \textit{rapidly-exploring random tree} (RRT) gro√üe Beliebtheit. Die liegt nicht zuletzt an ihrer asymptotischen Optimalit√§t \cite{SamplingAlgos}.
 \newline
 Die PRM-Planungsmethode \cite{PRM} besteht aus zwei Phasen:
 \begin{enumerate}
 	\item Learning-Phase
 	\item Query-Phase
 \end{enumerate}
-In der Learning-Phase wird ein kollisionsfreier Graph im Konfigurationsraums des Roboters erstellt, indem zuf‰llige Punkte im Raum auf Kollision untersucht wird und anschlieﬂend mit Hilfe eines lokalen Pfadplaners mit dem bestehenden Graph, ebenfalls kollisionsfrei, verbunden wird. In der Query-Phase wird durch einen Graphsuchalgorithmus ein Pfad vom Anfangs- zum Zielpunkt bestimmt.
+In der Learning-Phase wird ein kollisionsfreier Graph im Konfigurationsraums des Roboters erstellt, indem zuf√§llige Punkte im Raum auf Kollision untersucht wird und anschlie√üend mit Hilfe eines lokalen Pfadplaners mit dem bestehenden Graph, ebenfalls kollisionsfrei, verbunden wird. In der Query-Phase wird durch einen Graphsuchalgorithmus ein Pfad vom Anfangs- zum Zielpunkt bestimmt.
 \newline
-Die RRT-Methode \cite{RRT} benˆtigt keine Learning-Phase. Zwar werden auch hier zuf‰llig Punkte im Konfigurationsraum ausgew‰hlt und auf Kollision mit der Umgebung gepr¸ft, der Aufbau des Graphes, welcher die Form eines Suchbaums besitzt, geschieht jedoch f¸r jede Pfadanfrage von Neuem. Somit benˆtigt eine Suchanfrage bei der RRT-Methode potentiell l‰nger im Vergleich zu PRM, der Graph ber¸cksichtigt jedoch auch dynamische Objekte, deren Position sich in der Umgebung ver‰ndern kann.
+Die RRT-Methode \cite{RRT} ben√∂tigt keine Learning-Phase. Zwar werden auch hier zuf√§llig Punkte im Konfigurationsraum ausgew√§hlt und auf Kollision mit der Umgebung gepr√ºft, der Aufbau des Graphes, welcher die Form eines Suchbaums besitzt, geschieht jedoch f√ºr jede Pfadanfrage von Neuem. Somit ben√∂tigt eine Suchanfrage bei der RRT-Methode potentiell l√§nger im Vergleich zu PRM, der Graph ber√ºcksichtigt jedoch auch dynamische Objekte, deren Position sich in der Umgebung ver√§ndern kann.
 \newline
-RRT-Connect \cite{RRTConnect} ist eine Erweiterung von der RRT-Planungsmethode. Hier werden zwei Suchb‰ume gleichzeitig aufgebaut. Einer beginnt vom Startzustand, der andere vom Zielzustand. Nach einer vorgegebenen Anzahl von Iterationen wird dann versucht, die beiden B‰ume direkt zu verbinden. Dabei wird eine greedy-Heuristik verwendet, um die Wahrscheinlichkeit zu erhˆhen, dass sich die beiden B‰ume aufeinander zubewegen.
+RRT-Connect \cite{RRTConnect} ist eine Erweiterung von der RRT-Planungsmethode. Hier werden zwei Suchb√§ume gleichzeitig aufgebaut. Einer beginnt vom Startzustand, der andere vom Zielzustand. Nach einer vorgegebenen Anzahl von Iterationen wird dann versucht, die beiden B√§ume direkt zu verbinden. Dabei wird eine greedy-Heuristik verwendet, um die Wahrscheinlichkeit zu erh√∂hen, dass sich die beiden B√§ume aufeinander zubewegen.
