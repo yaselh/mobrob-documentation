@@ -1,4 +1,4 @@
-Im Bereich der Bahnplanung genießen auf Abtastung basierende Algorithmen wie \textit{probabilistic roadmap} (PRM) oder \textit{rapidly-exploring random tree} (RRT) große Beliebtheit, was nicht zuletzt an ihrer asymptotischen Optimalität \cite{SamplingAlgos} liegt.
+Im Bereich der Bahnplanung genießen auf Abtastung basierende Algorithmen wie \textit{probabilistic roadmap} (PRM) oder \textit{rapidly-exploring random tree} (RRT) große Beliebtheit. Was nicht zuletzt an ihrer asymptotischen Optimalität \cite{SamplingAlgos} liegt.
 \newline
 Die PRM-Planungsmethode \cite{PRM} besteht aus zwei Phasen:
 \begin{enumerate}
@@ -9,4 +9,4 @@ In der Learning-Phase wird ein kollisionsfreier Graph im Konfigurationsraums des
 \newline
 Die RRT-Methode \cite{RRT} benötigt keine Learning-Phase. Zwar werden auch hier zufällig Punkte im Konfigurationsraum ausgewählt und auf Kollision mit der Umgebung geprüft, der Aufbau des Graphes, welcher die Form eines Suchbaums besitzt, geschieht jedoch für jede Pfadanfrage von Neuem. Somit benötigt eine Suchanfrage bei der RRT-Methode potentiell länger im Vergleich zu PRM, der Graph berücksichtigt jedoch auch dynamische Objekte, deren Position sich in der Umgebung verändern kann.
 \newline
-RRT-Connect \cite{RRTConnect} ist eine Erweiterung von der RRT-Planungsmethode. Hier werden zwei Suchbäume gleichzeitig aufgebaut. Einer beginnt vom Startzustand, der andere vom Zielzustand. Dabei wird eine greedy-Heuristik verwendet, um die Wahrscheinlichkeit zu erhöhen, dass sich die beiden Bäume aufeinander zubewegen. Nach einer vorgegebenen Anzahl von Iterationen wird dann versucht, die beiden Bäume direkt zu verbinden.
+RRT-Connect \cite{RRTConnect} ist eine Erweiterung von der RRT-Planungsmethode. Hier werden zwei Suchbäume gleichzeitig aufgebaut. Einer beginnt vom Startzustand, der andere vom Zielzustand. Dabei wird eine greedy-Heuristik verwendet, um die Wahrscheinlichkeit zu erhöhen, dass sich die beiden Bäume aufeinander zubewegen. Nach einer vorgegebenen Anzahl von Iterationen wird versucht, die beiden Bäume direkt zu verbinden.
