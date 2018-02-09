@@ -2,14 +2,16 @@
 Für die Turtleboterkennung wurden keine ROS Pakete verwendet. Die verwendete Bibliotheken sind unter anderem NumPy, openCV, scikit-image, scikit-learn, Matplotlib.
 
 \paragraph{Detektion des Turtlbots in den Bilddaten}
-Die erste Überlegung war, das Turtlebot anhand eines Convolutional neural Networks zu erkennen. Mangels an Datensätze, die annotierten Bilder von der Klasse \textit{Turtlebot}\ in unterschiedlichen Kontexten beinhalten, wurde dieser überwachte Ansatz verworfen.
+Die erste Überlegung war, das Turtlebot anhand eines Convolutional neural Networks zu erkennen. Mangels an Datensätze, die annotierte Bilder von der Klasse \textit{Turtlebot}\ in unterschiedlichen Kontexten beinhalten, wurde dieser überwachte Ansatz verworfen.
 
-Eine günstigere aber robuste Alternative war ein Model basiert auf einer SVM, die im Vergleich zu CNNs weniger annotierte Daten benötigen, um letztendlich die Stützvektoren zu finden. Nachdem einen Datensatz von verschiedenen annotierten Posen des Turtlebots in einer Szene mithilfe der Kinect erstellt und segmentiert wurde, wurde die SVM auf unteschiedlichen negativen und positiven Patches trainiert. Mehr zu diesem Ansatz wird im Abschnitt
+Eine günstigere aber robuste Alternative war ein auf einer SVM basiertes Model, das im Vergleich zu CNNs weniger annotierte Daten benötigt, um letztendlich die Stützvektoren zu finden. Nachdem ein Datensatz von verschiedenen annotierten Posen des Turtlebots in einer Szene mithilfe der Kinect erstellt und segmentiert wurde, wurde die SVM auf unteschiedlichen negativen und positiven Patches trainiert. Mehr zu diesem Ansatz wird im Abschnitt
 \ref{4-1-2_gesamtsystem_bilderkennung_turtlebotkennung} detailliert.
 
-Der zweite getestete Ansatz basierte sich auf ein Template-Matching. Hier wurde ein Bild von der obigen Seite des Turtlebots aufgenommen und als Schablone verwendet. Dabei wird eine Szene von der Kinect in mehreren Segmenten gespaltet. [noch in bearbeitung]
+Über den in das System übernommene Ansatz hinaus wurden noch zwei anderen Ansätze getestet. Im folgenden fassen wir sie kurz zusammen:
 
-wurde nicht in das fertige System übernommen
+Der erste getestete Ansatz basierte sich auf das Template-Matching. Hier wurde ein Bild von der obigen Seite des Turtlebots aufgenommen und als Schablone verwendet. Diese wurde unterschiedlich skaliert und rotiert, um anhand einer Brute-Force-Suche das in der Szene gesuchte Turtlebot anzupassen.
+
+Der zweite getestete Ansatz war ein Feature-Matching-Verfahren und erfolgte in zwei grundlegenden Schritten: Das Finden repräsentativer Bildmerkmale in den Bildern des Turtlebots und Das Zuordnen dieser mit denen eines Turtlebots in der Szene. Dabei wurde ORB (Oriented FAST and Rotated BRIEF) als effiziente und freie alternative zu SIFT und SURF verwendet. Mittels einer mit RANSAC linearen Regression der zugerodneten Keypoints und Deskriptoren von jeweils Turtlebot und Szene wurde die Homographie Matrix berechnet, um letztendlich eine Perspektivische Projektion des Turtlebots in der Szene zu realisieren. Wegen der niedrigen Auflösung der Kinect lieferte dieser Ansatz meistens unangemessene Ergebnisse.
 
 \paragraph{Segmentierung des Turtlebots in der Punktwolke}
 Aus der Detektion des Turtlebots in einem Bild werden die \(x\) und \(y\) Koordinate im Weltkoordinatensystem gewonnen. Die \(z\) Koordinate ist durch die Punktwolke zu bestimmen. Ein naïves Verfahren war, die Punkte aus der Wolke zu nehmen, die zwischen einer Tiefe von der Höhe des Turtlebots und der maximalen von der Kinect gelieferten Tiefe.
