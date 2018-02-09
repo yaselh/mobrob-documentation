@@ -1,5 +1,109 @@
 % Encoding: UTF-8
 
+% -------------------------Tassenerkennung------------------------------
+
+% This file was created with Citavi 5.5.0.1
+
+@inproceedings{He.2016,
+ author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+ title = {Deep Residual Learning for Image Recognition},
+ pages = {770--778},
+ publisher = {IEEE},
+ isbn = {978-1-4673-8851-1},
+ booktitle = {29th IEEE Conference on Computer Vision and Pattern Recognition},
+ year = {2016},
+ address = {Piscataway, NJ},
+ doi = {10.1109/CVPR.2016.90}
+}
+
+
+@misc{Szegedy.20151211,
+ author = {Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jonathon and Wojna, Zbigniew},
+ year = {2015},
+ title = {Rethinking the Inception Architecture for Computer Vision},
+ url = {http://arxiv.org/pdf/1512.00567}
+}
+
+@inproceedings{Dalal.2005,
+ author = {Dalal, N. and Triggs, B.},
+ title = {Histograms of Oriented Gradients for Human Detection},
+ pages = {886--893},
+ publisher = {{IEEE Computer Society}},
+ isbn = {0-7695-2372-2},
+ editor = {Schmid, Cordelia and Tomasi, Carlo and Soatto, Stefano},
+ booktitle = {CVPR 2005},
+ year = {2005},
+ address = {Los Alamitos, Calif},
+ doi = {10.1109/CVPR.2005.177}
+}
+
+
+@misc{Dai.20160621,
+ author = {Dai, Jifeng and Li, Yi and He, Kaiming and Sun, Jian},
+ year = {2016},
+ title = {R-FCN: Object Detection via Region-based Fully Convolutional Networks},
+ url = {http://arxiv.org/pdf/1605.06409}
+}
+
+
+@article{Ren.2017,
+ abstract = {State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet [1] and Fast R-CNN [2] have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features-using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model [3] , our detection system has a frame rate of 5 fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.},
+ author = {Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian},
+ year = {2017},
+ title = {Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks},
+ pages = {1137--1149},
+ volume = {39},
+ number = {6},
+ issn = {1939-3539},
+ journal = {IEEE transactions on pattern analysis and machine intelligence},
+ doi = {10.1109/TPAMI.2016.2577031}
+}
+
+
+@article{Badrinarayanan.2017,
+ abstract = {We present a novel and practical deep fully convolutional neural network architecture for semantic pixel-wise segmentation termed SegNet. This core trainable segmentation engine consists of an encoder network, a corresponding decoder network followed by a pixel-wise classification layer. The architecture of the encoder network is topologically identical to the 13 convolutional layers in the VGG16 network [1] . The role of the decoder network is to map the low resolution encoder feature maps to full input resolution feature maps for pixel-wise classification. The novelty of SegNet lies is in the manner in which the decoder upsamples its lower resolution input feature map(s). Specifically, the decoder uses pooling indices computed in the max-pooling step of the corresponding encoder to perform non-linear upsampling. This eliminates the need for learning to upsample. The upsampled maps are sparse and are then convolved with trainable filters to produce dense feature maps. We compare our proposed architecture with the widely adopted FCN [2] and also with the well known DeepLab-LargeFOV [3] , DeconvNet [4] architectures. This comparison reveals the memory versus accuracy trade-off involved in achieving good segmentation performance. SegNet was primarily motivated by scene understanding applications. Hence, it is designed to be efficient both in terms of memory and computational time during inference. It is also significantly smaller in the number of trainable parameters than other competing architectures and can be trained end-to-end using stochastic gradient descent. We also performed a controlled benchmark of SegNet and other architectures on both road scenes and SUN RGB-D indoor scene segmentation tasks. These quantitative assessments show that SegNet provides good performance with competitive inference time and most efficient inference memory-wise as compared to other architectures. We also provide a Caffe implementation of SegNet and a web demo at http://mi.eng.cam.ac.uk/projects/segnet.},
+ author = {Badrinarayanan, Vijay and Kendall, Alex and Cipolla, Roberto},
+ year = {2017},
+ title = {SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation},
+ pages = {2481--2495},
+ volume = {39},
+ number = {12},
+ issn = {1939-3539},
+ journal = {IEEE transactions on pattern analysis and machine intelligence},
+ doi = {10.1109/TPAMI.2016.2644615}
+}
+
+% This file was created with Citavi 5.5.0.1
+
+@misc{Engelcke.20170305,
+ author = {Engelcke, Martin and Rao, Dushyant and Wang, Dominic Zeng and Tong, Chi Hay and Posner, Ingmar},
+ year = {2016},
+ title = {Vote3Deep: Fast Object Detection in 3D Point Clouds Using Efficient Convolutional Neural Networks},
+ url = {http://arxiv.org/pdf/1609.06666}
+}
+
+
+@inproceedings{Maturana.2015,
+ author = {Maturana, Daniel and Scherer, Sebastian},
+ title = {VoxNet: A 3D Convolutional Neural Network for real-time object recognition},
+ pages = {922--928},
+ publisher = {IEEE},
+ isbn = {978-1-4799-9994-1},
+ editor = {Burgard, Wolfram},
+ booktitle = {2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+ year = {2015},
+ address = {Piscataway, NJ},
+ doi = {10.1109/IROS.2015.7353481}
+}
+
+
+
+
+
+
+
+% -------------------------Bahnplanung-------------------------------
+
 @InProceedings{quigley2009ros,
   Title                    = {ROS: an open-source Robot Operating System},
   Author                   = {Quigley, Morgan and Conley, Ken and Gerkey, Brian and Faust, Josh and Foote, Tully and Leibs, Jeremy and Wheeler, Rob and Ng, Andrew Y},
