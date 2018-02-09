@@ -4,8 +4,8 @@ Zum einen musste dem Roboterarm gesagt werden, wo sich die Tasse bzw. der Turtle
 \newline \\
 Um diese Aufgabe zu erfüllen und die dabei auftretenden Probleme zu lösen, hatten wir uns zwei Optionen herausgesucht, zwischen denen wir uns entscheiden mussten:
 \begin{enumerate}
-	\item Die Bahnplanung mit dem Motion Planning Framework MoveIt \cite{MoveIt} realisiern.
-	\item Die Bahnplanung mit der FZI-hauseigenen Motion Pipeline \cite{FZIPipeline} realisiern.
+	\item Die Bahnplanung mit dem Motion Planning Framework MoveIt, siehe \cite{MoveIt}, realisiern.
+	\item Die Bahnplanung mit der FZI-hauseigenen Motion Pipeline, siehe \cite{FZIPipeline}, realisiern.
 \end{enumerate}
 MoveIt ist eine State of the Art Software zur Steuerung von Robotern. Sie beinhaltet verschiedene Lösungen der inversen Kinematik (IK), unterschiedliche Planer zur Trajektorienerstellung und Optimierungsmöglichkeiten der gefundenen Bahnen. MoveIt ist mit all seinen Möglichkeiten und Anwendungsgebieten sehr umfangreich und komplex. Dafür existieren jedoch ausführliche Dokumentationen und Tutorials, sowie eine aktive Community, die sich bei Fragen und Probleme untereinander zu Rat steht.
 \newline  \\
@@ -13,7 +13,7 @@ Die FZI-eigene Motion Pipeline ist ein Framework zur einfachen Ausführung von T
 \newline \\
 Letzten Endes haben wir uns für den Einsatz von MoveIt entschieden. Denn obwohl dieses Framework für unsere Anwendungszwecke übermächtig ist und aufgrund der Komplexität eine länger Einarbeitsphase benötigt, wollten wir uns trotzdem im Bereich der Bahnplanung keine Grenzen setzen. MoveIt schien uns daher als das Mittel der Wahl.
 \newline \\
-Der erste Schritt bei der Integrierung von MoveIt in unser Projekt war es daher, das Framework für unseren genauen Roboteraufbau zu konfigurieren. Unter Verwendung des MoveIt Setup Assistant \cite{MoveItAssistant} erzeugten wir uns, mit Hilfe unseres selbst erstellten URDF-Modells, unser eigenes ROS-Paket mit allen Konfigurations- und Launch-Dateien, die wir für die Benutzung von MoveIt auf unserer Hardware benötigten.
+Der erste Schritt bei der Integrierung von MoveIt in unser Projekt war es daher, das Framework für unseren genauen Roboteraufbau zu konfigurieren. Unter Verwendung des MoveIt Setup Assistant, siehe \cite{MoveItAssistant}, erzeugten wir uns, mit Hilfe unseres selbst erstellten URDF-Modells, unser eigenes ROS-Paket mit allen Konfigurations- und Launch-Dateien, die wir für die Benutzung von MoveIt auf unserer Hardware benötigten.
 \newline
 Zur Bahnplanung in MoveIt verwendeten wir verschiedene Planer aus der Open Motion Planning Library (OMPL), wie zum Beispiel PRM-Varianten, wobei wir uns am Ende für den RRTConnectDefault entschieden. Dieser implementiert den RRT-Connect Algorithmus und lieferte uns die zuverlässigsten Ergebnisse. Bei den IK-Implementierungen gab es keine beobachtbaren Unterschiede.
 \newline \\
@@ -22,4 +22,4 @@ Für die eigentliche Bestimmung der Trajektorie des UR5 stellt MoveIt zwei Metho
 	\item Bahnplanung vom momentanen Zustand zur Zielpose.
 	\item Bahnplanung vom momentanen Zustand über eine Liste von Zielposen.
 \end{enumerate}
-Bei der ersten Variante wird nur der momentane Zustand des Roboters gesetzt. Anschließend wird mit der Methode \textit{set\_target\_pose} die Zielpose gesetzt und mit \textit{plan} die Bewegung geplant. Die zweite Methodik basiert auf der Bahnplanung über mehrere Wegpunkte. Die Methode \textit{compute\_cartesian\_path} bestimmt dabei aus mehreren Posen eine Trajektorie. Wir entschieden uns schließlich für die zweite Variante, da diese ohne Pfad-Constraints und weitere Optimierungsschritte für unsere Aufgabe optimale Bahnen bestimmte und auch die Ausrichtung der Tasse beibehielt.
+Bei der ersten Variante wird nur der momentane Zustand des Roboters gesetzt. Anschließend wird mit der Methode \textit{set\_pose\_target} die Zielpose gesetzt und mit \textit{plan} die Bewegung geplant. Die zweite Methodik basiert auf der Bahnplanung über mehrere Wegpunkte. Die Methode \textit{compute\_cartesian\_path} bestimmt dabei aus mehreren Posen eine Trajektorie. Wir entschieden uns schließlich für die zweite Variante, da diese ohne Pfad-Constraints und weitere Optimierungsschritte für unsere Aufgabe optimale Bahnen bestimmte und auch die Ausrichtung der Tasse beibehielt.
