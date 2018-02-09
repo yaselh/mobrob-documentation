@@ -56,6 +56,8 @@
 }
 
 
+% This file was created with Citavi 5.5.0.1
+
 @article{Badrinarayanan.2017,
  abstract = {We present a novel and practical deep fully convolutional neural network architecture for semantic pixel-wise segmentation termed SegNet. This core trainable segmentation engine consists of an encoder network, a corresponding decoder network followed by a pixel-wise classification layer. The architecture of the encoder network is topologically identical to the 13 convolutional layers in the VGG16 network [1] . The role of the decoder network is to map the low resolution encoder feature maps to full input resolution feature maps for pixel-wise classification. The novelty of SegNet lies is in the manner in which the decoder upsamples its lower resolution input feature map(s). Specifically, the decoder uses pooling indices computed in the max-pooling step of the corresponding encoder to perform non-linear upsampling. This eliminates the need for learning to upsample. The upsampled maps are sparse and are then convolved with trainable filters to produce dense feature maps. We compare our proposed architecture with the widely adopted FCN [2] and also with the well known DeepLab-LargeFOV [3] , DeconvNet [4] architectures. This comparison reveals the memory versus accuracy trade-off involved in achieving good segmentation performance. SegNet was primarily motivated by scene understanding applications. Hence, it is designed to be efficient both in terms of memory and computational time during inference. It is also significantly smaller in the number of trainable parameters than other competing architectures and can be trained end-to-end using stochastic gradient descent. We also performed a controlled benchmark of SegNet and other architectures on both road scenes and SUN RGB-D indoor scene segmentation tasks. These quantitative assessments show that SegNet provides good performance with competitive inference time and most efficient inference memory-wise as compared to other architectures. We also provide a Caffe implementation of SegNet and a web demo at http://mi.eng.cam.ac.uk/projects/segnet.},
  author = {Badrinarayanan, Vijay and Kendall, Alex and Cipolla, Roberto},
@@ -68,6 +70,31 @@
  journal = {IEEE transactions on pattern analysis and machine intelligence},
  doi = {10.1109/TPAMI.2016.2644615}
 }
+
+
+@misc{Chen.20170512,
+ author = {Chen, Liang-Chieh and Papandreou, George and Kokkinos, Iasonas and Murphy, Kevin and Yuille, Alan L.},
+ year = {2016},
+ title = {DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs},
+ url = {http://arxiv.org/pdf/1606.00915}
+}
+
+
+@article{Shelhamer.2017,
+ abstract = {Convolutional networks are powerful visual models that yield hierarchies of features. We show that convolutional networks by themselves, trained end-to-end, pixels-to-pixels, improve on the previous best result in semantic segmentation. Our key insight is to build {\dq}fully convolutional{\dq} networks that take input of arbitrary size and produce correspondingly-sized output with efficient inference and learning. We define and detail the space of fully convolutional networks, explain their application to spatially dense prediction tasks, and draw connections to prior models. We adapt contemporary classification networks (AlexNet, the VGG net, and GoogLeNet) into fully convolutional networks and transfer their learned representations by fine-tuning to the segmentation task. We then define a skip architecture that combines semantic information from a deep, coarse layer with appearance information from a shallow, fine layer to produce accurate and detailed segmentations. Our fully convolutional networks achieve improved segmentation of PASCAL VOC (30{\%} relative improvement to 67.2{\%} mean IU on 2012), NYUDv2, SIFT Flow, and PASCAL-Context, while inference takes one tenth of a second for a typical image.},
+ author = {Shelhamer, Evan and Long, Jonathan and Darrell, Trevor},
+ year = {2017},
+ title = {Fully Convolutional Networks for Semantic Segmentation},
+ pages = {640--651},
+ volume = {39},
+ number = {4},
+ issn = {1939-3539},
+ journal = {IEEE transactions on pattern analysis and machine intelligence},
+ doi = {10.1109/TPAMI.2016.2572683}
+}
+
+
+
 
 @misc{Engelcke.20170305,
  author = {Engelcke, Martin and Rao, Dushyant and Wang, Dominic Zeng and Tong, Chi Hay and Posner, Ingmar},
@@ -145,9 +172,9 @@
   abstract      = { During the last decade, sampling-based path planning algorithms, such as probabilistic roadmaps (PRM) and rapidly exploring random trees (RRT), have been shown to work well in practice and possess theoretical guarantees such as probabilistic completeness. However, little effort has been devoted to the formal analysis of the quality of the solution returned by such algorithms, e.g. as a function of the number of samples. The purpose of this paper is to fill this gap, by rigorously analyzing the asymptotic behavior of the cost of the solution returned by stochastic sampling-based algorithms as the number of samples increases. A number of negative results are provided, characterizing existing algorithms, e.g. showing that, under mild technical conditions, the cost of the solution returned by broadly used sampling-based algorithms converges almost surely to a non-optimal value. The main contribution of the paper is the introduction of new algorithms, namely, PRM* and RRT*, which are provably asymptotically optimal, i.e. such that the cost of the returned solution converges almost surely to the optimum. Moreover, it is shown that the computational complexity of the new algorithms is within a constant factor of that of their probabilistically complete (but not asymptotically optimal) counterparts. The analysis in this paper hinges on novel connections between stochastic sampling-based path planning algorithms and the theory of random geometric graphs. },
   doi           = {10.1177/0278364911406761},
   eprint        = { https://doi.org/10.1177/0278364911406761 },
-  url           = { 
+  url           = {
         https://doi.org/10.1177/0278364911406761
-    
+
 },
 }
 
@@ -179,6 +206,7 @@
   title        = {Motion Pipeline},
   howpublished = {\url{https://ids-wiki.fzi.de/index.php/Motion_Pipeline}},
   note         = {Accessed: 2018-02-08},
+  year = {2018},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
