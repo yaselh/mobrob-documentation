@@ -4,8 +4,7 @@ Für die Turtleboterkennung wurden keine ROS Pakete verwendet. Die verwendete Bi
 \paragraph{Detektion des Turtlbots in den Bilddaten}
 Die erste Überlegung war, das Turtlebot anhand eines Convolutional neural Networks zu erkennen. Mangels an Datensätze, die annotierte Bilder von der Klasse \textit{Turtlebot}\ in unterschiedlichen Kontexten beinhalten, wurde dieser überwachte Ansatz verworfen.
 
-Eine günstigere aber robuste Alternative war ein auf einer SVM basiertes Model, das im Vergleich zu CNNs weniger annotierte Daten benötigt, um letztendlich die Stützvektoren zu finden. Nachdem ein Datensatz von verschiedenen annotierten Posen des Turtlebots in einer Szene mithilfe der Kinect erstellt und segmentiert wurde, wurde die SVM auf unteschiedlichen negativen und positiven Patches trainiert. Mehr zu diesem Ansatz wird im Abschnitt
-\ref{4-1-2_gesamtsystem_bilderkennung_turtlebotkennung} detailliert.
+Eine günstigere aber robuste Alternative war ein auf einer SVM basiertes Model, das im Vergleich zu CNNs weniger annotierte Daten benötigt, um letztendlich die Stützvektoren zu finden. Nachdem ein Datensatz von verschiedenen annotierten Posen des Turtlebots in einer Szene mithilfe der Kinect erstellt und segmentiert wurde, wurde die SVM auf unteschiedlichen negativen und positiven Patches trainiert.
 
 Über den in das System übernommene Ansatz hinaus wurden noch zwei anderen Ansätze getestet. Im folgenden fassen wir sie kurz zusammen:
 
