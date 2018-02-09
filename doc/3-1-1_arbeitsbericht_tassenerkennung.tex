@@ -13,6 +13,14 @@ Für die Detektion der Tasse in den Bilddaten wurden eine Reihe von Ansätzen ge
 
 Zunächst war der Plan die Tasse mittels eines Fully Convolutional Neural Network aus den Bilddaten zu segmentieren. Als Basisstruktur wurde hierfür die Architektur des Resnet50 Netzes verwendet. Die Eingabe für das Netz stellt ein RGB Bild dar und es liefert als Ausgabe zwei Feature Maps, welche die Wahrscheinlichkeiten für die Zugehörigkeiten der Pixel des Eingabebildes zu den Klassen \glqq Tasse\grqq bzw. \glqq Keine Tasse\grqq enthalten. Trainiert wurde auf den Microsoft COCO Datensatz unter Nutzung von GPU Kapazitäten bei Amazon Webservices. Der Ansatz wurde letztendlich verworfen, da es sich herausstellte dass das Netz zu überdimensioniert für die Segmentierung einer Klasse aus einem RGB Datensatz ist und nicht genügend Trainingsdaten zur Verfügung standen.
 
+Als der erste Ansatz nicht in der Lage war, plausible Ergebnisse zu liefern, haben wir das vortrainierte Yolo-Netz getestet. Das Netz wurde trainiert, um unteschiedliche Klassen (u.a Tassen) zu erkennen. Obwohl diese Alternative mehrere Vorteile hat hinsitchlich der Genauigkeit und der Erkennung in Echtzeit, haben wir uns entschieden, unsere eigenen Ansätze zu verwirklichen.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{./images/yolo.jpeg}
+\caption{Erkennung der Tasse in der Szene Mithilfe von Yolo}
+\end{figure}
+
 Der zweite getestete Ansatz basierte auf der Segmentierung des Bildes in eine Menge von Segmenten sowie einer Klassifizierung durch ein Neuronales Netz. Das Bild wird hierfür zunächst mittels des SLIC Algorithmus in eine Menge von Segmenten zerlegt. Diese Segmente werden dann unter Einbeziehung eines gewissen Kontextfensters dem Neuronalen Netz zur Klassifikation übergeben. Jedem Segment wird entweder als \glqq Tasse\grqq oder \glqq Keine Tasse\grqq klassifiziert. Das Ergebnis einer Vorhersage mit dem beschriebenen Algorithmus ist in Abbildung \ref{fig:patches_prediction_result} abgebildet.
 
 \begin{figure}
